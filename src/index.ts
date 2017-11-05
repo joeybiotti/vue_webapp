@@ -1,5 +1,5 @@
 import Vue from "vue";
-import HelloComponent from "./components/Hello"
+import HelloComponent from "./components/Hello.vue";
 
 let v = new Vue({
     el: "#app",
@@ -9,7 +9,7 @@ let v = new Vue({
         <hello-component :name="name" :initialEnthusiasm="5" />
     </div>
     `,
-    data: {name: "World"},
+    data: { name: "World" },
     components: {
         HelloComponent
     }
